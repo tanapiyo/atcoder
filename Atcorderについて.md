@@ -6,3 +6,9 @@
 
 ## 初級
 - forで全組み合わせを検索
+- C問題だと計算量を気にしなければいけないかも
+- 目安：1びょうに処理できるforは10^8
+
+
+- DP
+https://qiita.com/drken/items/dc53c683d6de8aeacf5a
