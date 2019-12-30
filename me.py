@@ -79,3 +79,43 @@ for itr_10000 in range(maisu+1):
             result = [itr_10000, itr_5000, itr_1000]
 result = map(str, result)
 print(' '.join(result))
+
+
+target = input()
+string_dictionary = ['dream', 'dreamer', 'erase', 'eraser']
+can_devide = True
+i=0
+while i < len(target):
+    can_devide_four = False
+    for word in string_dictionary:
+        target = target[:len(target)-i]#i文字目まで
+        if(target.endswith(word)):
+            can_devide_four = True
+            i+=len(word)
+    if not can_devide_four:
+        can_devide = True
+        break
+if can_devide:
+    print("YES")
+else:
+    print("NO")
+
+takahashi, aoki, kaisu = [int(x) for x in input().split()]
+for i in range(kaisu):
+    if(takahashi>0):
+        takahashi - 1
+    elif(aoki>0):
+        aoki-1
+print(str(takahashi) + " " + str(aoki))
+
+
+takahashi, aoki, kaisu = [int(x) for x in input().split()]
+for i in range(kaisu):
+    print(kaisu)
+    if(takahashi>0):
+        print("takahasi")
+        takahashi = takahashi - 1
+    elif(aoki>0):
+        print("aoki")
+        aoki = aoki-1
+print(str(takahashi) + " " + str(aoki))
