@@ -14,6 +14,13 @@ http://tatamo.81.la/blog/2018/12/07/atcoder-cli-tutorial/
 - DP
 https://qiita.com/drken/items/dc53c683d6de8aeacf5a
 
+## 勉強できるサイト
+- atcoder problems
+https://kenkoooo.com/atcoder/#/table/
+- atcoder tags
+https://atcoder-tags.herokuapp.com/
+- cafecoder
+https://www.cafecoder.top/
 
 ##　環境構築
 https://qiita.com/Adaachill/items/3d4ddad56c5c2cc372cd
@@ -37,6 +44,9 @@ oj login https://beta.atcoder.jp/
 //コンテストのディレクトリ作る
 acc new abc101
 //あとは対話式で解く問題を選択する
+
+//テスト
+oj t -c " python3 ./a.py" -d ./tests/
 
 //submit
 acc submit main.cpp
