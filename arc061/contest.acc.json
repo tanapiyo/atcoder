@@ -1,0 +1,37 @@
+{
+  "contest": {
+    "id": "arc061",
+    "title": "AtCoder Regular Contest 061",
+    "url": "https://atcoder.jp/contests/arc061"
+  },
+  "tasks": [
+    {
+      "id": "arc061_a",
+      "label": "C",
+      "title": "たくさんの数式 / Many Formulas",
+      "url": "https://atcoder.jp/contests/arc061/tasks/arc061_a",
+      "directory": {
+        "path": "c",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "arc061_b",
+      "label": "D",
+      "title": "すぬけ君の塗り絵 / Snuke's Coloring",
+      "url": "https://atcoder.jp/contests/arc061/tasks/arc061_b"
+    },
+    {
+      "id": "arc061_c",
+      "label": "E",
+      "title": "すぬけ君の地下鉄旅行 / Snuke's Subway Trip",
+      "url": "https://atcoder.jp/contests/arc061/tasks/arc061_c"
+    },
+    {
+      "id": "arc061_d",
+      "label": "F",
+      "title": "3人でカードゲーム / Card Game for Three",
+      "url": "https://atcoder.jp/contests/arc061/tasks/arc061_d"
+    }
+  ]
+}
