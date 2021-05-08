@@ -10,15 +10,15 @@
 '''
 
 # for test
-R, C, K = 3, 5, 3
-N = 5
-ameInfo = [[1, 2], [2, 1], [2, 5], [3, 2], [3, 5]]
+# R, C, K = 3, 5, 3
+# N = 5
+# ameInfo = [[1, 2], [2, 1], [2, 5], [3, 2], [3, 5]]
 
 # 行列と飴の個数
-# R, C, K = map(int, input().split())  # 空行くぎりのstringで渡ってくる
-# N = int(input())  # 飴情報の個数
-# ameInfo = [list(map(int, input().split()))
-#            for i in range(N)]  # N行分空行くぎりのstringがくる
+R, C, K = map(int, input().split())  # 空行くぎりのstringで渡ってくる
+N = int(input())  # 飴情報の個数
+ameInfo = [list(map(int, input().split()))
+           for i in range(N)]  # N行分空行くぎりのstringがくる
 
 # 飴マップを作る
 row = [0]*R
