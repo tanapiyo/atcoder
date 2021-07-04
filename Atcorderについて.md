@@ -53,7 +53,7 @@ acc new abc101
 //あとは対話式で解く問題を選択する
 
 //テスト
-oj t -c " python3 ./a.py" -d ./tests/
+oj t -c " python3 ./c.py" -d ./tests/
 
 //submit
 acc submit main.cpp
